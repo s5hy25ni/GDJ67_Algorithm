@@ -1,2 +1,2 @@
-# GDJ67_Practice
-GDJ67 Project&amp;algorithm Practice
+# GDJ67_Algorithm
+알고리즘 문제 풀이
