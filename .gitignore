@@ -2,3 +2,5 @@
 .svn/
 .settings/
 bin/
+.dbeaver
+target/
