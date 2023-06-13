@@ -12,6 +12,12 @@ public class AlgorithmMain {
 //		System.out.println(isc1);
 //		boolean isc2 = a2.sumCheck(new int[] {5,3,9,13}, 7);
 //		System.out.println(isc2);
+		
+		String a = "abcdef";
+		String regex = "[a-z]{3}";
+		String b = a.replaceAll(regex, "abc");
+		System.out.println(a);
+		System.out.println(b);
 	}
 
 }
