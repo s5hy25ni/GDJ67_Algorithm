@@ -2,7 +2,7 @@ package com.sh.al;
 
 public class Algorithm001 {
 
-	public int sum(int n) {
+	public int solution(int n) {
 		String nStr = "";
 		
 		while(true) {

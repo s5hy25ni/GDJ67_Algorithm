@@ -2,21 +2,22 @@ package com.sh.al;
 
 public class Algorithm003 {
 	
-	public int calString(String str) {
-		String cycle = "";
-		String temp = str;
-		String regex = "";
+	public int solution(String str) {
 		
-		for (int i = 0; i < str.length(); i++) {
+		int len = str.length();
+		String cycle = "";
+		String temp;
+		
+		for (int i = 0; i < len/2; i++) {
+			temp = "";
 			cycle += str.charAt(i);
-			if(str.length()/cycle.length()!=0) {
-				continue;
+			for (int j = 0; j < len/cycle.length(); j++) {
+				temp += cycle;
 			}
-			regex = 
-			temp.replaceAll(regex, cycle);
-			
-		}
-
+			if(temp.equals(str)) {
+				return cycle.length();
+			}
+		}	
 		return str.length();
 	}
 }
